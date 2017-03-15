@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+body {
+	background-color: #F5D2D3;
+}
+
+.title{
+	font-family: Arial, Helvetica, "sans-serif";
+	font-size: 40px;
+	text-align: center;
+}
+
+.this{
+	text-align: center;
+ }
+
+.one{
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: #FAE8E9;
+	border: 2px solid black;
+	padding: 10px 20px 10px 20px;
+	margin: auto;
+	margin-right: 10px;
+}
+#research{
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: #FAE8E9;
+	border: 2px solid black;
+	padding: 10px 20px 10px 20px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+#spigot, #palantir{
+	padding-top: 10px;
+}
+
+#name{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	align-self: center;
+	padding: 1px;
+	min-width: 90%;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+/* Large Desktops*/
+@media (min-width: 1200px){
+	.title{
+		font-size: 90px;
+	}
+	.one{
+/*		display: inline-block;*/
+		max-width: 45%;
+		margin: auto;
+		vertical-align: middle;
+	}
+	#inspiration{
+		float: left;
+		margin-left: 1%;
+	}
+
+	#pictures{
+		float: right;
+		margin-top: 0px;
+		margin-right: 1%;
+		vertical-align: middle;
+	}
+	#research{
+		float: left;
+		max-width: 45%;
+		margin-left: 1%;
+	}
+	#name{
+		margin-left: 5%;
+		margin-right: 5%;
+		text-align: center;
+		display: inline-block;
+	}
+}
+
+/* Landscape tablets and medium desktops*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.title{
+		font-size: 70px;
+		color: #9AB7D3;
+	}
+	
+	.one{
+		display: inline-block;
+		max-width: 40%;
+		margin: auto;
+		vertical-align: middle;
+	}
+/*
+	#inspiration{
+		margin-right: 10px;
+	}
+*/
+	#research{
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	
+	#name{
+		margin-left: 5%;
+	}
+	
+}
+
+/*Portrait tablets and small desktops*/
+@media (min-width: 768px) and (max-width: 991px){
+	.title{
+		font-size: 55px;
+		color: #7F8272;
+	}
+	.one{
+		display: inline-block;
+		max-width: 40%;
+		margin: auto;
+		vertical-align: middle;
+	}
+	
+/*
+	#inspiration{
+		margin-right: 10px;
+	}
+*/
+
+	#research{
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	
+}
+
+/*Landcape phones and protrait tablets*/
+@media (min-width: 481px) and (max-width: 767px){
+	.title{
+		font-size: 50px;
+		color: #5F9EA0;
+	}
+	
+	#research{
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	
+	#pictures{
+	margin-top: 30px;
+}
+}
+
+/* Portrait phones and smaller*/
+@media (max-width: 480px){
+	.title{
+		color: black;
+	}
+	#research{
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	
+	#pictures{
+	margin-top: 30px;
+}
+}
